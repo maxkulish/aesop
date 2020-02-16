@@ -113,6 +113,7 @@ func TestEncryptDecryptFile(t *testing.T) {
 		}
 
 		_ = os.Remove(newDecrFile)
+		_ = os.Remove(encrFile)
 
 	}
 

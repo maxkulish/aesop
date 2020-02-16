@@ -23,7 +23,7 @@ func main()  {
 	flag.Parse()
 
 	if encrypt == "" && decrypt == "" {
-		fmt.Println("Enter path to the file you want to encrypt.\nExample:\n./aesop -e text.txt\n")
+		fmt.Println("Enter path to the file you want to encrypt.\nExample:\n./aesop -e text.txt")
 		os.Exit(1)
 	}
 
