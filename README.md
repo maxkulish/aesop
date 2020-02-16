@@ -1,2 +1,2 @@
 # aesop
-Encrypting and decrypting utility with AES GCM
+Encrypts and decrypts data using 256-bit AES-GCM
